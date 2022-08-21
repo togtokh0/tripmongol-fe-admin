@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "GT Walsheim Pro";
+
+}
+html,body{
+  /* overflow: hidden ; */
+   overscroll-behavior: none ; 
+}
