@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "vite --port 3201",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "serve": "vite preview --port 3201 ",
     "preview": "vite preview ",
     "start": "vite preview --host --port 3201"
