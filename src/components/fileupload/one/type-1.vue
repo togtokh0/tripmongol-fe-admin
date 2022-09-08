@@ -189,7 +189,7 @@ export default {
         method: "post",
         url: import.meta.env.VITE_APP_BACK_END_FILE_URL + "/api/v1/upload/file",
         headers: {
-          Authorization: "Basic dHJpcG1vbmdvbDpwYXNzd29yZA==",
+          Authorization: "Basic aG9saWRheXM6cGFzc3dvcmQ=",
         },
         data: formData,
       };
