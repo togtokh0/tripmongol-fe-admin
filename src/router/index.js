@@ -10,6 +10,7 @@ import video from "../views/video/index.vue";
 import complex from "../views/complex/index.vue";
 import blog from "../views/blog/index.vue";
 import news from "../views/news/index.vue";
+import media from "../views/media/index.vue";
 
 const routes = [
   {
@@ -61,6 +62,11 @@ const routes = [
     path: "/news",
     name: "news",
     component: news,
+  },
+  {
+    path: "/media",
+    name: "media",
+    component: media,
   },
 ];
 

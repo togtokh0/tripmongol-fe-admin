@@ -129,6 +129,11 @@ export default defineComponent({
           icon: "",
         },
         {
+          href: "/media",
+          name: "media",
+          icon: "",
+        },
+        {
           href: "./documentation",
           name: "Documentation",
           icon: "",

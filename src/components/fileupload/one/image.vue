@@ -167,13 +167,13 @@ export default {
       this.currentStatus = STATUS_INITIAL;
       this.uploadedFiles = [];
       this.uploadError = null;
-      this.data.thumbnail = "";
+      this.data.image = "";
     },
     start() {
-      if (this.data.thumbnail) {
-        if (this.data.thumbnail != "") {
+      if (this.data.image) {
+        if (this.data.image != "") {
           this.currentStatus = STATUS_SUCCESS;
-          this.uploadedFiles = [this.data.thumbnail];
+          this.uploadedFiles = [this.data.image];
         } else {
           this.currentStatus = STATUS_INITIAL;
           this.uploadedFiles = [];
@@ -198,7 +198,7 @@ export default {
       axios(config)
         .then((x) => {
           this.uploadedFiles = [x.data.data.url];
-          this.data.thumbnail = x.data.data.url;
+          this.data.image = x.data.data.url;
           this.currentStatus = STATUS_SUCCESS;
         })
         .catch((err) => {
